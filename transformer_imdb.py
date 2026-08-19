@@ -212,7 +212,7 @@ if __name__ == '__main__':
 
     # 超参数（使用 100 维 GloVe）
     embed_dim = 100
-    num_heads = 5          # 100 能被 5 整除
+    num_heads = 5
     ff_dim = 200
     num_layers = 2
     max_len = 128
