@@ -10,9 +10,6 @@ from collections import Counter
 import math
 import os
 
-# 可选：使用镜像加速数据集下载
-# os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
-
 # ---------- 1. Transformer 组件（保持不变） ----------
 class PositionalEncoding(nn.Module):
     def __init__(self, embed_dim, max_len=5000):
